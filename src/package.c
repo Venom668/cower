@@ -210,7 +210,7 @@ int aur_packages_from_json(const char *json, aurpkg_t ***packages, int *count) {
     {"PackageBaseID",  yajl_t_number, offsetof(aurpkg_t, pkgbaseid) },
     {"Popularity",     yajl_t_number, offsetof(aurpkg_t, popularity) },
     {"Provides",       yajl_t_array,  offsetof(aurpkg_t, provides) },
-    {"Replaces",       yajl_t_array,  offsetof(aurpkg_t, licenses) },
+    {"Replaces",       yajl_t_array,  offsetof(aurpkg_t, replaces) },
     {"URL",            yajl_t_string, offsetof(aurpkg_t, upstream_url) },
     {"URLPath",        yajl_t_string, offsetof(aurpkg_t, aur_urlpath) },
     {"Version",        yajl_t_string, offsetof(aurpkg_t, version) },
