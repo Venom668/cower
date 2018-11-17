@@ -13,6 +13,11 @@ User Repository (AUR). Invoking cower consists of supplying an operation, any
 applicable options, and usually one or more targets. If a target is specified
 as a lone dash (-), additional targets will be read from stdin.
 
+B<Warning:> cower is no longer actively developed and has several unpleasant
+bugs and corner cases that will never be fixed. Users are B<strongly>
+encouraged to migrate to L<https://github.com/falconindy/auracle> as soon as
+humanly possible.
+
 =head1 OPERATIONS
 
 =over 4
@@ -259,4 +264,3 @@ packages will cause the AUR to respond with HTTP 414.
 =head1 AUTHOR
 
 Dave Reisner E<lt>d@falconindy.comE<gt>
-
